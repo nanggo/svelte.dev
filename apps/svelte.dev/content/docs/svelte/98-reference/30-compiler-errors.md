@@ -404,6 +404,12 @@ Expected token %token%
 Expected whitespace
 ```
 
+### export_undefined
+
+```
+`%name%` is not defined
+```
+
 ### global_reference_invalid
 
 ```
