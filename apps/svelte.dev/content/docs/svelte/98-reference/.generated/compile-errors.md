@@ -412,6 +412,12 @@ Expected whitespace
 `$host()` can only be used inside custom element component instances
 ```
 
+### illegal_element_attribute
+
+```
+`<%name%>` does not support non-event attributes or spread attributes
+```
+
 ### import_svelte_internal_forbidden
 
 ```
@@ -475,7 +481,7 @@ A component cannot have a default export
 ### node_invalid_placement
 
 ```
-%thing% is invalid inside `<%parent%>`
+%message%
 ```
 
 HTML restricts where certain elements can appear. In case of a violation the browser will 'repair' the HTML in a way that breaks Svelte's assumptions about the structure of your components. Some examples:
