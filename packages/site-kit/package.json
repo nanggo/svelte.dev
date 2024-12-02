@@ -48,6 +48,7 @@
 	"devDependencies": {
 		"@sveltejs/kit": "^2.8.0",
 		"@types/node": "^20.12.11",
+		"core-js": "^3.39.0",
 		"flexsearch": "^0.7.43",
 		"magic-string": "^0.30.11",
 		"marked": "^14.1.2",

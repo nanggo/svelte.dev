@@ -1,3 +1,4 @@
+import 'core-js/es/array/at';
 import flexsearch, { type Index as FlexSearchIndex } from 'flexsearch';
 import type { Block, BlockGroup } from './types';
 

@@ -1,3 +1,5 @@
+import 'core-js/es/array/at';
+import 'core-js/es/promise/with-resolvers';
 import '../patch_window';
 import { sleep } from '../../utils';
 import { rollup } from '@rollup/browser';
